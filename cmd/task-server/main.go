@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/go-openapi/loads"
+	 "github.com/go-openapi/loads"
 	"log"
 	runtime "wancloudsV2"
 	"wancloudsV2/gen/restapi"
@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	swaggerSpec, err := loads.Analyzed(restapi.SwaggerJSON, "2.0")
+	swaggerSpec, err := .Analyzed(restapi.SwaggerJSON, "2.0")
 	if err != nil {
 		log.Fatalln(err)
 	}
