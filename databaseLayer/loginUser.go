@@ -2,8 +2,9 @@ package databaseLayer
 
 import (
 	"fmt"
-	"wancloudsV2/gen/models"
-	"wancloudsV2/Models"
+
+	"github.com/taskAPi/Models"
+	"github.com/taskAPi/gen/models"
 )
 
 func LoginUserInDb(paramsLoginData models.LoginUserDefinition) bool {

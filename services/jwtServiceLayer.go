@@ -1,9 +1,9 @@
 package services
 
 import (
-	"wancloudsV2/JWT"
-	"wancloudsV2/Models"
-	"wancloudsV2/databaseLayer"
+	"github.com/taskAPi/JWT"
+	"github.com/taskAPi/Models"
+	"github.com/taskAPi/databaseLayer"
 )
 
 func (s *Service)GeneratingTheJWT(Email string) (string, error){

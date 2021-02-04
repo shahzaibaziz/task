@@ -2,8 +2,8 @@ package handlers
 
 import (
 	"github.com/go-openapi/runtime/middleware"
-	runtime "wancloudsV2"
-	"wancloudsV2/gen/restapi/operations/users"
+	runtime "github.com/taskAPi"
+	"github.com/taskAPi/gen/restapi/operations/users"
 )
 
 type updateUserHandler struct{

@@ -2,8 +2,8 @@ package handlers
 
 import (
 	"github.com/go-openapi/loads"
-	runtime "wancloudsV2"
-	"wancloudsV2/gen/restapi/operations"
+	runtime "github.com/taskAPi"
+	"github.com/taskAPi/gen/restapi/operations"
 )
 
 type taskAPIInstence *operations.TaskAPI

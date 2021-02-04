@@ -1,6 +1,6 @@
 package databaseLayer
 
-import "wancloudsV2/gen/models"
+import "github.com/taskAPi/gen/models"
 
 //UpdateUserInDb
 func UpdateUserInDb(paramsUpdateData models.UpdateUsersDefinition)bool{

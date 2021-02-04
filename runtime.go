@@ -2,8 +2,9 @@ package runtime
 
 import (
 	"log"
-	"wancloudsV2/databaseLayer"
-	"wancloudsV2/services"
+
+	"github.com/taskAPi/databaseLayer"
+	"github.com/taskAPi/services"
 )
 
 type Runtime struct {

@@ -1,15 +1,17 @@
 package main
 
 import (
-	 "github.com/go-openapi/loads"
 	"log"
-	runtime "wancloudsV2"
-	"wancloudsV2/gen/restapi"
-	"wancloudsV2/handlers"
+
+	loads "github.com/go-openapi/loads"
+
+	runtime "github.com/taskAPi"
+	"github.com/taskAPi/gen/restapi"
+	"github.com/taskAPi/handlers"
 )
 
 func main() {
-	swaggerSpec, err := .Analyzed(restapi.SwaggerJSON, "2.0")
+	swaggerSpec, err := loads.Analyzed(restapi.SwaggerJSON, "2.0")
 	if err != nil {
 		log.Fatalln(err)
 	}

@@ -2,10 +2,10 @@ package handlers
 
 import (
 	"github.com/go-openapi/runtime/middleware"
-	runtime "wancloudsV2"
-	"wancloudsV2/gen/models"
+	runtime "github.com/taskAPi"
+	"github.com/taskAPi/gen/models"
 
-	"wancloudsV2/gen/restapi/operations/users"
+	"github.com/taskAPi/gen/restapi/operations/users"
 )
 
 type loginUserImplements struct {

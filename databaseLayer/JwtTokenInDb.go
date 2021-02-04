@@ -1,6 +1,6 @@
 package databaseLayer
 
-import "wancloudsV2/Models"
+import "github.com/taskAPi/Models"
 
 func SaveJwtToken(paramsForJwt Models.JwtModels){
 	db, err:= DatabaseConnection()

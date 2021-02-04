@@ -1,8 +1,8 @@
 package services
 
 import (
-	"wancloudsV2/databaseLayer"
-	"wancloudsV2/gen/models"
+	"github.com/taskAPi/databaseLayer"
+	"github.com/taskAPi/gen/models"
 )
 
 func(s *Service) LoginUserService(paramsLoginData models.LoginUserDefinition) bool{

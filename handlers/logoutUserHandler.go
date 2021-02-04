@@ -3,15 +3,15 @@ package handlers
 import (
 	"github.com/go-openapi/runtime/middleware"
 
-	runtime "wancloudsV2"
-	"wancloudsV2/gen/restapi/operations/users"
+	runtime "github.com/taskAPi"
+	"github.com/taskAPi/gen/restapi/operations/users"
 )
 
 type logoutUserImplemepents struct{
 	rt runtime.Runtime
 }
 
-func (impl logoutUserImplemepents) Handle(params users.LogoutUserParams) middleware.Responder {
+func (impl *logoutUserImplemepents) Handle(params users.LogoutUserParams) middleware.Responder {
 	impl.rt.Service().LogoutUserService(*params.LogoutUserBody.Email,*params.LogoutUserBody.Token)
 	return users.NewUpdateUserOK()
 }

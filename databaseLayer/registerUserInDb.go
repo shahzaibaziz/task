@@ -2,7 +2,7 @@ package databaseLayer
 
 import (
 	"fmt"
-	"wancloudsV2/gen/models"
+	"github.com/taskAPi/gen/models"
 )
 
 func RegisterUserInDb(paramsRegisterData models.RegisterUserDefinition) error {
